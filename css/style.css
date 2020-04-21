@@ -22,12 +22,15 @@ body {
 .button {
   color: white;
   background: #fe775a;
-  padding: 11px 8px;
+  padding: 11px 10px;
   border-radius: 5px;
 }
-a{
+a {
   text-decoration: none;
   color:inherit;
+}
+ul {
+  list-style-type: none;
 }
 /* FINE REGOLE GENERALI */
 
@@ -98,6 +101,7 @@ header #nav .nav-menu .col.dx a:nth-child(2) span {
   margin-right: 10px;
 }
 /* fine nav-menu */
+
 /* inizio bot-header */
 header #bot-header {
   height: 500px;
@@ -122,4 +126,125 @@ header #bot-header .teaser p:last-child {
   font-size: 12px;
 }
 /* fine bot-header */
+header .header-spacer {
+  height: 60px;
+  background-color: #afebe4;
+  border: 3px solid #49586a;
+  border-left: none;
+  border-right: none;
+}
 /* FINE HEADER */
+
+/* INIZIO MAIN */
+/* inizio section services */
+/* inizio generali section services*/
+main section#services {
+  background-color: #f4f9fd;
+}
+main section#services .serices-box {
+  text-align: center;
+  padding: 30px 25px;
+}
+main section#services .serices-box .img img{
+  height: 150px;
+}
+main section#sevices .titolo , main section#services .sotto-titolo{
+  margin: 25px 0;
+}
+main section#services .serices-box.card-white {
+background-color: white;
+border-radius: 5px;
+}
+i.check{
+  margin-right: 20px;
+  color: #fe775a;
+}
+/* fine generali section services*/
+main section#services .serices-box.card-white .col {
+  float: left;
+  height: 100%;
+}
+main section#services .serices-box.card-white .col.sx {
+  width: 35%;
+  padding-left: 50px;
+  display: block;
+}
+main section#services .serices-box.card-white .col.sx img {
+  margin-bottom: 25px;
+}
+main section#services .serices-box.card-white .col.dx {
+  width: 65%;
+  text-align: left;
+}
+main section#services .serices-box.card-white .col.dx span {
+  font-weight: bold;
+}
+main section#services .serices-box.card-white .col.dx ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+main section#services .serices-box.card-white .col.dx ul li:first-child{
+  margin-left: 0;
+  margin-top: 10px;
+}
+/* inizio bot-section-servicex */
+main section#services .bot-section-services {
+  padding: 30px 0;
+}
+main section#services .bot-section-services h4 {
+  margin: 30px 0;
+}
+main section#services .bot-section-services ul li {
+  text-align: left;
+}
+main section#services .bot-section-services .col-sx {
+  float: left;
+  width: 30%;
+}
+main section#services .bot-section-services .col-center {
+  float: left;
+  width: 30%;
+  margin: 0 5%;
+}
+main section#services .bot-section-services .col-dx {
+  float: left;
+  width: 30%;
+}
+/* fine section services */
+
+/* inizio section learn-grow */
+main section#learn-grow {
+  background-color: #00b3af;
+}
+main section#learn-grow .wrapper {
+  text-align: center;
+  color: white;
+  padding: 50px 0;
+}
+main section#learn-grow .wrapper img {
+  margin-top: 20px;
+}
+main section#learn-grow .wrapper h2 {
+  padding: 10px 0;
+  font-size: 45px;
+}
+main section#learn-grow .wrapper p {
+  margin-bottom: 40px;
+}
+main section#learn-grow .wrapper .riga {
+  width: 100%
+}
+main section#learn-grow .wrapper .riga .col {
+  width: calc(100%/4);
+  float: left;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+main section#learn-grow .wrapper .riga:last-child .col {
+  border-bottom: none;
+}
+main section#learn-grow .wrapper .riga .col:last-child {
+  border-right:none;
+}
+/* fine section learn-grow */
+/* FINE MAIN */
