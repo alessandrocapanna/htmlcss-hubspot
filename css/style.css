@@ -314,26 +314,69 @@ main section#partners .riga:nth-child(2) .col.dx {
 /* INIZIO FOOTER */
 /* inizio top-footer */
 footer {
+  color: white;
   background-color: #32495b;
-  height: 600px;
 }
 footer .wrapper {
   padding-top: 50px;
 }
-footer .riga ul li p {
-  font-weight: bold;
-  padding: 14px 0;
+footer a:hover {
+  color: #0091ae;
 }
-footer .riga ul li ul li {
-  padding: 9px 0;
+footer #top-header ul li:nth-child(4) .button a:hover {
+  color: white;
 }
-footer .riga ul li:last-child ul li:last-child {
-  margin-bottom: 50px;
-}
-footer .riga ul li.col {
+footer #top-header ul li.col {
   float: left;
   width: calc(100%/4);
   color: white;
 }
-/* inizio top-footer */
+footer #top-header ul li p {
+  font-weight: bold;
+  padding: 14px 0;
+}
+footer #top-header ul li ul li {
+  padding: 9px 0;
+}
+footer #top-header ul li:nth-child(4) ul li:nth-child(5) {
+  margin-bottom: 25px;
+}
+footer #top-header ul li:nth-child(4) ul .link-social {
+  margin-top: 25px;
+}
+footer #top-header ul li:nth-child(4) ul .link-social a {
+  padding-right: 30px;
+  font-size: 19px
+}
+/* fine top-footer */
+
+/* inizio language */
+footer #language {
+  padding-top: 50px;
+}
+footer #language ul li {
+  padding: 13px;
+  display: inline-block;
+}
+footer #language ul {
+  text-align: center;
+}
+/* finelanguage */
+
+/* inizio bot-footer */
+footer #bot-footer {
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+footer #bot-footer .col {
+  float: left;
+  width: 50%;
+}
+footer #bot-footer .col.dx {
+  text-align: right;
+}
+footer #bot-footer .col.dx span:first-child {
+  margin-right: 20px;
+}
+/* fine bot-footer */
 /* FINE FINE */
