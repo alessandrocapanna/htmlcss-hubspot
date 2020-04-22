@@ -295,8 +295,9 @@ main section#partners .col.dx {
   width: 60%
 }
 main section#partners .col.dx img {
-  width: 130px;
-  padding: 19px;
+  width: 24%;
+  padding: 9px;
+  vertical-align: middle;
 }
 main section#partners .riga:nth-child(2) {
   padding-top: 0;
