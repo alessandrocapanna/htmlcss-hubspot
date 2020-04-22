@@ -186,6 +186,16 @@ main section#services .serices-box.card-white .col.dx {
 main section#services .serices-box.card-white .col.dx span {
   font-weight: bold;
 }
+main section#services .serices-box.card-white .col.dx .popolar-features .col-sx {
+  float: left;
+  width: 30%;
+}
+main section#services .serices-box.card-white .col.dx .popolar-features .col-dx {
+  float: left;
+  width: 70%;
+  height: 20px;
+  margin-top: 9px;
+}
 main section#services .serices-box.card-white .col.dx ul li {
   display: inline-block;
   margin-left: 20px;
@@ -235,8 +245,13 @@ main section#learn-grow .wrapper img {
   margin-top: 20px;
 }
 main section#learn-grow .wrapper h2 {
-  padding: 10px 0;
+  margin: 10px 0;
   font-size: 45px;
+}
+main section#learn-grow .wrapper h2::after {
+  content: "+";
+  font-weight:100;
+  margin-left: 5px;
 }
 main section#learn-grow .wrapper p {
   margin-bottom: 40px;
@@ -323,28 +338,28 @@ footer .wrapper {
 footer a:hover {
   color: #0091ae;
 }
-footer #top-header ul li:nth-child(4) .button a:hover {
+footer #top-footer ul li:nth-child(4) .button a:hover {
   color: white;
 }
-footer #top-header ul li.col {
+footer #top-footer ul li.col {
   float: left;
   width: calc(100%/4);
   color: white;
 }
-footer #top-header ul li p {
+footer #top-footer ul li p {
   font-weight: bold;
   padding: 14px 0;
 }
 footer #top-header ul li ul li {
   padding: 9px 0;
 }
-footer #top-header ul li:nth-child(4) ul li:nth-child(5) {
+footer #top-footer ul li:nth-child(4) ul li:nth-child(5) {
   margin-bottom: 25px;
 }
-footer #top-header ul li:nth-child(4) ul .link-social {
+footer #top-footer ul li:nth-child(4) ul .link-social {
   margin-top: 25px;
 }
-footer #top-header ul li:nth-child(4) ul .link-social a {
+footer #top-footer ul li:nth-child(4) ul .link-social a {
   padding-right: 30px;
   font-size: 19px
 }
