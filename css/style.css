@@ -248,7 +248,7 @@ main section#learn-grow .wrapper h2 {
   margin: 10px 0;
   font-size: 45px;
 }
-main section#learn-grow .wrapper h2::after {
+main section#learn-grow .wrapper .riga h2::after {
   content: "+";
   font-weight:100;
   margin-left: 5px;
